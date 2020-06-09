@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -172,39 +172,14 @@
 <circle x="97" y="57" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="3" y="3" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="97" y="3" radius="2.236065625" width="0.2" layer="41"/>
-<text x="1" y="58" size="1" layer="26" rot="MR0" align="center-right">RLY1</text>
-<text x="1" y="56" size="1" layer="26" rot="MR0" align="center-right">RLY2</text>
 <text x="87" y="6" size="1.27" layer="25" align="bottom-center">Pineapple 128</text>
-<text x="36" y="70.5" size="1" layer="26" rot="MR0" align="center">G</text>
-<text x="1" y="12" size="1" layer="26" rot="MR0" align="center-right">LEDK</text>
-<text x="1" y="10" size="1" layer="26" rot="MR0" align="center-right">LED1</text>
-<text x="71" y="63" size="1" layer="26" rot="MR0" align="center-left">GND</text>
-<text x="71" y="55" size="1" layer="26" rot="MR0" align="center-left">Vcc</text>
-<text x="71" y="61" size="1" layer="26" rot="MR0" align="center-left">SDA</text>
-<text x="71" y="59" size="1" layer="26" rot="MR0" align="center-left">SCL</text>
 <text x="12" y="3" size="1" layer="25" align="center-left">GND</text>
-<text x="1" y="8" size="1" layer="26" rot="MR0" align="center-right">LED0</text>
 <wire x1="100" y1="0" x2="100" y2="60" width="0" layer="20"/>
-<text x="36" y="26" size="1" layer="26" rot="MR270" align="center">LTC485</text>
-<text x="36" y="45" size="1" layer="26" rot="MR270" align="center">LTC485</text>
-<text x="36" y="14" size="1" layer="26" rot="MR90" align="center">74153</text>
-<text x="41.5" y="6" size="1.27" layer="26" rot="MR90" align="top-left">RX</text>
-<text x="41.5" y="39" size="1.27" layer="26" rot="MR90" align="top-left">TX</text>
-<text x="40.5" y="14" size="1" layer="26" rot="MR90" align="bottom-center">Remove JP2</text>
-<text x="60" y="62.5" size="1" layer="26" rot="MR0" align="bottom-center">JP2</text>
-<text x="71" y="57" size="1" layer="26" rot="MR0" align="center-left">D7</text>
-<text x="17" y="16.5" size="1" layer="26" rot="MR0" align="bottom-center">JP1</text>
-<text x="13.73" y="59.5" size="1" layer="26" rot="MR0" align="bottom-center">JP4</text>
-<text x="34" y="70.5" size="1" layer="26" rot="MR0" align="center">9V</text>
-<text x="38" y="70.5" size="1" layer="26" rot="MR0" align="center">3V</text>
-<text x="50" y="70.5" size="1" layer="26" rot="MR0" align="center">G</text>
-<text x="52" y="70.5" size="1" layer="26" rot="MR0" align="center">G1</text>
-<text x="54" y="70.5" size="1" layer="26" rot="MR0" align="center">G2</text>
 <text x="87" y="4" size="1.27" layer="25" align="bottom-center">32-ch I/O Unit</text>
 <text x="87" y="2" size="1" layer="25" align="bottom-center">1.0.0-X</text>
 <text x="22" y="2" size="1.27" layer="25" rot="R90" align="center-left">IN</text>
 <text x="54" y="2" size="1.27" layer="25" rot="R90" align="center-left">THRU</text>
-<text x="20" y="12" size="1.27" layer="25" rot="R90" align="center">DC5V2A</text>
+<text x="17" y="12" size="1.27" layer="25" rot="R90" align="center">DC5V2A</text>
 </plain>
 <libraries>
 <library name="74xx-us" urn="urn:adsk.eagle:library:88">
