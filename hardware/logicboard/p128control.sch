@@ -16999,21 +16999,24 @@ distributor Buerklin, 17G482</description>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N137" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*158" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
-<part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2" value="10k"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="A1353HEX" device="" package3d_urn="urn:adsk.eagle:package:27207/1"/>
 <part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="A1353HEX" device="" package3d_urn="urn:adsk.eagle:package:27207/1"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17096,17 +17099,17 @@ distributor Buerklin, 17G482</description>
 <attribute name="VALUE" x="145.542" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="144.78" y="88.9" smashed="yes"/>
-<instance part="C1" gate="G$1" x="129.54" y="99.06" smashed="yes">
-<attribute name="NAME" x="131.064" y="99.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="131.064" y="94.361" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="101.6" y="17.78" smashed="yes">
+<attribute name="NAME" x="103.124" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="103.124" y="13.081" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="VCC" x="144.78" y="116.84" smashed="yes">
 <attribute name="VALUE" x="142.24" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+3" gate="VCC" x="129.54" y="106.68" smashed="yes">
-<attribute name="VALUE" x="127" y="104.14" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="101.6" y="25.4" smashed="yes">
+<attribute name="VALUE" x="99.06" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="129.54" y="88.9" smashed="yes"/>
+<instance part="SUPPLY2" gate="GND" x="101.6" y="7.62" smashed="yes"/>
 <instance part="IC1" gate="A" x="185.42" y="50.8" smashed="yes">
 <attribute name="NAME" x="177.8" y="66.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="33.02" size="1.778" layer="96"/>
@@ -17157,6 +17160,14 @@ distributor Buerklin, 17G482</description>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="101.6" y="33.02" smashed="yes"/>
 <instance part="SUPPLY5" gate="GND" x="114.3" y="33.02" smashed="yes"/>
+<instance part="C2" gate="G$1" x="114.3" y="17.78" smashed="yes">
+<attribute name="NAME" x="115.824" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.824" y="13.081" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="VCC" x="114.3" y="25.4" smashed="yes">
+<attribute name="VALUE" x="111.76" y="22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="114.3" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -17239,7 +17250,7 @@ distributor Buerklin, 17G482</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="129.54" y1="93.98" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="G"/>
@@ -17256,6 +17267,11 @@ distributor Buerklin, 17G482</description>
 <pinref part="S2" gate="1" pin="C"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="114.3" y1="12.7" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -17331,7 +17347,7 @@ distributor Buerklin, 17G482</description>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="104.14" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RN1" gate="A" pin="2"/>
@@ -17366,6 +17382,11 @@ distributor Buerklin, 17G482</description>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="134.62" y1="78.74" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 <junction x="134.62" y="78.74"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLR" class="0">
