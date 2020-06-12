@@ -13433,11 +13433,11 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="294.64" y="101.6" size="1.778" layer="94" align="bottom-center">Pineapple 128</text>
+<text x="228.6" y="15.24" size="1.778" layer="94" align="bottom-center">Pineapple 128</text>
 </plain>
 <instances>
-<instance part="LOGO1" gate="G$1" x="304.8" y="78.74" smashed="yes"/>
-<instance part="U$1" gate="G$1" x="297.18" y="111.76" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="134.62" y="15.24" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="185.42" y="5.08" smashed="yes"/>
 <instance part="J1" gate="JACK" x="12.7" y="157.48" smashed="yes">
 <attribute name="NAME" x="7.62" y="162.56" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="13.97" y="162.56" size="1.27" layer="96" ratio="10"/>
