@@ -191,8 +191,7 @@
 <text x="69" y="1" size="2" layer="25" align="bottom-center">A</text>
 <text x="81" y="1" size="2" layer="25" align="bottom-center">B</text>
 <text x="59" y="36" size="1" layer="25" align="center">220</text>
-<text x="59" y="20" size="1" layer="25" align="center">10k</text>
-<text x="55" y="11" size="1" layer="25" align="center">10k</text>
+<text x="59" y="20" size="1" layer="25" align="center">4.7k</text>
 <text x="51" y="21.65" size="1" layer="25" align="center">BK</text>
 <text x="51" y="24.19" size="1" layer="25" align="center">BN</text>
 <text x="51" y="26.73" size="1" layer="25" align="center">RD</text>
