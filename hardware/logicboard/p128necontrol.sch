@@ -13481,10 +13481,10 @@ Low profile connectors, straight&lt;p&gt;
 <class number="0" name="default" width="0.1524" drill="0.1524">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="gnd" width="0.1524" drill="0.1524">
+<class number="1" name="gnd" width="0.3048" drill="0.1524">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="power" width="0.1524" drill="0.1524">
+<class number="2" name="power" width="0.3048" drill="0.1524">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="analog" width="0.1524" drill="0.1524">
@@ -13496,13 +13496,13 @@ Low profile connectors, straight&lt;p&gt;
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="GNDPIN"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
-<part name="JV" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="JACK-DC-005" device="'DC-005'" package3d_urn="urn:adsk.eagle:package:33150/1"/>
+<part name="J9" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="JACK-DC-005" device="'DC-005'" package3d_urn="urn:adsk.eagle:package:33150/1"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ARDUINOMICRO" device="" package3d_urn="urn:adsk.eagle:package:6240895/1"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*595" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS" value="74LS595N"/>
@@ -13521,28 +13521,28 @@ Low profile connectors, straight&lt;p&gt;
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10" device="&quot;" package3d_urn="urn:adsk.eagle:package:38157/1"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10" device="&quot;" package3d_urn="urn:adsk.eagle:package:38157/1"/>
 <part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10" device="&quot;" package3d_urn="urn:adsk.eagle:package:38157/1"/>
-<part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1"/>
-<part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1"/>
-<part name="SV3" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1"/>
-<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1" value="OUT"/>
+<part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1" value="IN"/>
+<part name="SV3" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1" value="THRU"/>
+<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1"/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26149/1" value="0.01u"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 </parts>
@@ -13559,7 +13559,7 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="VALUE" x="2.54" y="22.86" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY33" gate="GND" x="2.54" y="2.54" smashed="yes"/>
-<instance part="JV" gate="JACK" x="12.7" y="160.02" smashed="yes">
+<instance part="J9" gate="JACK" x="12.7" y="160.02" smashed="yes">
 <attribute name="NAME" x="7.62" y="165.1" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="13.97" y="165.1" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -13881,11 +13881,11 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="2.54" y1="17.78" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JV" gate="JACK" pin="CDN"/>
+<pinref part="J9" gate="JACK" pin="CDN"/>
 <wire x1="19.05" y1="160.02" x2="20.32" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="20.32" y1="160.02" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="JV" gate="JACK" pin="-"/>
+<pinref part="J9" gate="JACK" pin="-"/>
 <wire x1="20.32" y1="157.48" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="19.05" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="157.48"/>
@@ -14101,7 +14101,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="45.72" y="134.62" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JV" gate="JACK" pin="+"/>
+<pinref part="J9" gate="JACK" pin="+"/>
 <wire x1="19.05" y1="162.56" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
 <label x="22.86" y="162.56" size="0.8128" layer="95" xref="yes"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -14167,11 +14167,6 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="CLR" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
-<label x="76.2" y="137.16" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="SCL"/>
 <wire x1="93.98" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <label x="91.44" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -14212,11 +14207,6 @@ Low profile connectors, straight&lt;p&gt;
 <label x="132.08" y="55.88" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="-3" pin="S"/>
-<wire x1="228.6" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
-<label x="231.14" y="157.48" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="-3" pin="S"/>
 <wire x1="228.6" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="231.14" y="119.38" size="0.8128" layer="95" xref="yes"/>
@@ -14228,11 +14218,6 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 </net>
 <net name="SCLK" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<label x="76.2" y="139.7" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="A" pin="SCK"/>
 <wire x1="93.98" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
@@ -14274,11 +14259,6 @@ Low profile connectors, straight&lt;p&gt;
 <label x="132.08" y="58.42" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="-4" pin="S"/>
-<wire x1="228.6" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
-<label x="231.14" y="154.94" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="-4" pin="S"/>
 <wire x1="228.6" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="231.14" y="116.84" size="0.8128" layer="95" xref="yes"/>
@@ -14290,11 +14270,6 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 </net>
 <net name="RCLK" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<wire x1="73.66" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<label x="76.2" y="142.24" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="A" pin="RCK"/>
 <wire x1="93.98" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
@@ -14334,11 +14309,6 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="IC8" gate="A" pin="RCK"/>
 <wire x1="134.62" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
 <label x="132.08" y="50.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="-5" pin="S"/>
-<wire x1="228.6" y1="152.4" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
-<label x="231.14" y="152.4" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV2" gate="-5" pin="S"/>
@@ -14452,41 +14422,6 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="RX"/>
 <wire x1="73.66" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
 <label x="78.74" y="129.54" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SW1" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A0"/>
-<wire x1="48.26" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
-<label x="45.72" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SW2" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A1"/>
-<wire x1="48.26" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
-<label x="45.72" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SW4" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A2"/>
-<wire x1="48.26" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<label x="45.72" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SW8" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A3"/>
-<wire x1="48.26" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<label x="45.72" y="147.32" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SWSEL" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A4"/>
-<wire x1="48.26" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
-<label x="45.72" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -15456,33 +15391,49 @@ Low profile connectors, straight&lt;p&gt;
 <label x="231.14" y="93.98" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="RCLKOUT" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="73.66" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<label x="76.2" y="142.24" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-5" pin="S"/>
+<wire x1="228.6" y1="152.4" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
+<label x="231.14" y="152.4" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SCLKOUT" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<label x="76.2" y="139.7" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-4" pin="S"/>
+<wire x1="228.6" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
+<label x="231.14" y="154.94" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CLROUT" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="76.2" y="137.16" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="-3" pin="S"/>
+<wire x1="228.6" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
+<label x="231.14" y="157.48" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="106,1,73.66,129.54,RX,,,,,"/>
 <approved hash="106,1,73.66,127,TX,,,,,"/>
-<approved hash="113,1,13.97,161.265,JV,,,,,"/>
 <approved hash="113,1,124.991,84.351,FRAME1,,,,,"/>
-<approved hash="113,1,9.28684,11.43,C1,,,,,"/>
-<approved hash="113,1,38.0771,40.64,S1,,,,,"/>
-<approved hash="113,1,50.7771,40.64,S2,,,,,"/>
-<approved hash="113,1,19.4468,11.43,C3,,,,,"/>
-<approved hash="113,1,24.5268,11.43,C4,,,,,"/>
-<approved hash="113,1,29.6068,11.43,C5,,,,,"/>
-<approved hash="113,1,34.6868,11.43,C6,,,,,"/>
-<approved hash="113,1,39.7668,11.43,C7,,,,,"/>
-<approved hash="113,1,44.8468,11.43,C8,,,,,"/>
-<approved hash="113,1,49.9268,11.43,C9,,,,,"/>
-<approved hash="113,1,55.7164,11.43,C10,,,,,"/>
-<approved hash="113,1,60.7027,11.43,C11,,,,,"/>
-<approved hash="113,1,65.8764,11.43,C12,,,,,"/>
-<approved hash="113,1,70.9564,11.43,C13,,,,,"/>
-<approved hash="113,1,76.0364,11.43,C14,,,,,"/>
-<approved hash="113,1,81.1164,11.43,C15,,,,,"/>
-<approved hash="113,1,86.1964,11.43,C16,,,,,"/>
-<approved hash="113,1,91.2764,11.43,C17,,,,,"/>
-<approved hash="113,1,96.3564,11.43,C18,,,,,"/>
 <approved hash="113,1,177.123,149.792,J1,,,,,"/>
 <approved hash="113,1,177.123,119.312,J2,,,,,"/>
 <approved hash="113,1,177.123,88.8323,J3,,,,,"/>
